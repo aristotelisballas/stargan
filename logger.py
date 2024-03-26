@@ -14,7 +14,7 @@ class Logger(object):
         # summary = tf.Summary(value=[tf.Summary.Value(tag=tag, simple_value=value)])
         # self.writer.add_summary(summary, step)
 
-    def scalar_summary(self, tag, value, step):
-        """Add scalar summary."""
-        summary = tf.summary(value=[tf.summary.Value(tag=tag, simple_value=value)])
-        self.writer.add_summary(summary, step)
+    # def scalar_summary(self, tag, value, step):
+    #     """Add scalar summary."""
+    #     summary = tf.summary(value=[tf.summary.Value(tag=tag, simple_value=value)])
+    #     self.writer.add_summary(summary, step)
